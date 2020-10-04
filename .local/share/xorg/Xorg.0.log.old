@@ -1,0 +1,536 @@
+[    29.105] (--) Log file renamed from "/home/arghya/.local/share/xorg/Xorg.pid-1611.log" to "/home/arghya/.local/share/xorg/Xorg.0.log"
+[    29.106] 
+X.Org X Server 1.20.8
+X Protocol Version 11, Revision 0
+[    29.106] Build Operating System: Linux 4.15.0-115-generic x86_64 Ubuntu
+[    29.106] Current Operating System: Linux arghya-H110M-S2 5.4.0-48-generic #52-Ubuntu SMP Thu Sep 10 10:58:49 UTC 2020 x86_64
+[    29.106] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-48-generic root=UUID=239e5bf5-43f8-42f3-afad-d27c2bb07ee6 ro quiet splash vt.handoff=7
+[    29.106] Build Date: 04 September 2020  01:34:27PM
+[    29.106] xorg-server 2:1.20.8-2ubuntu2.4 (For technical support please see http://www.ubuntu.com/support) 
+[    29.106] Current version of pixman: 0.38.4
+[    29.106] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    29.106] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    29.106] (==) Log file: "/home/arghya/.local/share/xorg/Xorg.0.log", Time: Sun Oct  4 16:12:16 2020
+[    29.107] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    29.109] (==) No Layout section.  Using the first Screen section.
+[    29.109] (==) No screen section available. Using defaults.
+[    29.109] (**) |-->Screen "Default Screen Section" (0)
+[    29.109] (**) |   |-->Monitor "<default monitor>"
+[    29.109] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    29.109] (==) Automatically adding devices
+[    29.109] (==) Automatically enabling devices
+[    29.109] (==) Automatically adding GPU devices
+[    29.109] (==) Automatically binding GPU devices
+[    29.109] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    29.110] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    29.110] 	Entry deleted from font path.
+[    29.110] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    29.110] 	Entry deleted from font path.
+[    29.110] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    29.110] 	Entry deleted from font path.
+[    29.110] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    29.110] 	Entry deleted from font path.
+[    29.110] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    29.110] 	Entry deleted from font path.
+[    29.110] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    29.110] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    29.110] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    29.110] (II) Loader magic: 0x55b0cbcf8020
+[    29.110] (II) Module ABI versions:
+[    29.110] 	X.Org ANSI C Emulation: 0.4
+[    29.110] 	X.Org Video Driver: 24.1
+[    29.110] 	X.Org XInput driver : 24.1
+[    29.110] 	X.Org Server Extension : 10.0
+[    29.110] (++) using VT number 2
+
+[    29.111] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_32
+[    29.112] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    29.112] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+[    29.114] (--) PCI:*(1@0:0:0) 10de:1c03:19da:1438 rev 161, Mem @ 0xee000000/16777216, 0xd0000000/268435456, 0xe0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/131072
+[    29.115] (II) LoadModule: "glx"
+[    29.116] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    29.118] (II) Module glx: vendor="X.Org Foundation"
+[    29.118] 	compiled for 1.20.8, module version = 1.0.0
+[    29.118] 	ABI class: X.Org Server Extension, version 10.0
+[    29.236] (==) Matched modesetting as autoconfigured driver 0
+[    29.236] (==) Matched fbdev as autoconfigured driver 1
+[    29.236] (==) Matched vesa as autoconfigured driver 2
+[    29.236] (==) Assigned the driver to the xf86ConfigLayout
+[    29.236] (II) LoadModule: "modesetting"
+[    29.236] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    29.237] (II) Module modesetting: vendor="X.Org Foundation"
+[    29.237] 	compiled for 1.20.8, module version = 1.20.8
+[    29.237] 	Module class: X.Org Video Driver
+[    29.237] 	ABI class: X.Org Video Driver, version 24.1
+[    29.237] (II) LoadModule: "fbdev"
+[    29.237] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    29.238] (II) Module fbdev: vendor="X.Org Foundation"
+[    29.238] 	compiled for 1.20.1, module version = 0.5.0
+[    29.238] 	Module class: X.Org Video Driver
+[    29.238] 	ABI class: X.Org Video Driver, version 24.0
+[    29.238] (II) LoadModule: "vesa"
+[    29.238] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    29.238] (II) Module vesa: vendor="X.Org Foundation"
+[    29.238] 	compiled for 1.20.4, module version = 2.4.0
+[    29.238] 	Module class: X.Org Video Driver
+[    29.238] 	ABI class: X.Org Video Driver, version 24.0
+[    29.238] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    29.238] (II) FBDEV: driver for framebuffer: fbdev
+[    29.238] (II) VESA: driver for VESA chipsets: vesa
+[    29.238] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[    29.238] (II) modeset(0): using drv /dev/dri/card0
+[    29.238] (WW) Falling back to old probe method for fbdev
+[    29.238] (II) Loading sub module "fbdevhw"
+[    29.238] (II) LoadModule: "fbdevhw"
+[    29.238] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    29.239] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    29.239] 	compiled for 1.20.8, module version = 0.0.2
+[    29.239] 	ABI class: X.Org Video Driver, version 24.1
+[    29.239] (EE) open /dev/fb0: Permission denied
+[    29.239] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    29.239] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    29.239] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[    29.239] (==) modeset(0): RGB weight 888
+[    29.239] (==) modeset(0): Default visual is TrueColor
+[    29.239] (II) Loading sub module "glamoregl"
+[    29.239] (II) LoadModule: "glamoregl"
+[    29.239] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    29.243] (II) Module glamoregl: vendor="X.Org Foundation"
+[    29.243] 	compiled for 1.20.8, module version = 1.0.1
+[    29.243] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    29.281] (II) modeset(0): glamor X acceleration enabled on NV136
+[    29.281] (II) modeset(0): glamor initialized
+[    29.283] (II) modeset(0): Output DVI-D-1 has no monitor section
+[    29.344] (II) modeset(0): Output DP-1 has no monitor section
+[    29.408] (II) modeset(0): Output DP-2 has no monitor section
+[    29.443] (II) modeset(0): Output HDMI-1 has no monitor section
+[    29.504] (II) modeset(0): Output DP-3 has no monitor section
+[    29.505] (II) modeset(0): EDID for output DVI-D-1
+[    29.568] (II) modeset(0): EDID for output DP-1
+[    29.631] (II) modeset(0): EDID for output DP-2
+[    29.668] (II) modeset(0): EDID for output HDMI-1
+[    29.668] (II) modeset(0): Manufacturer: DEL  Model: f06c  Serial#: 1129466441
+[    29.668] (II) modeset(0): Year: 2016  Week: 41
+[    29.668] (II) modeset(0): EDID Version: 1.3
+[    29.668] (II) modeset(0): Digital Display Input
+[    29.668] (II) modeset(0): Max Image Size [cm]: horiz.: 41  vert.: 23
+[    29.668] (II) modeset(0): Gamma: 2.20
+[    29.668] (II) modeset(0): DPMS capabilities: Off
+[    29.668] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[    29.668] (II) modeset(0): First detailed timing is preferred mode
+[    29.668] (II) modeset(0): redX: 0.642 redY: 0.332   greenX: 0.316 greenY: 0.626
+[    29.668] (II) modeset(0): blueX: 0.151 blueY: 0.049   whiteX: 0.313 whiteY: 0.329
+[    29.668] (II) modeset(0): Supported established timings:
+[    29.668] (II) modeset(0): 720x400@70Hz
+[    29.668] (II) modeset(0): 640x480@60Hz
+[    29.668] (II) modeset(0): 640x480@75Hz
+[    29.668] (II) modeset(0): 800x600@60Hz
+[    29.668] (II) modeset(0): 800x600@75Hz
+[    29.668] (II) modeset(0): 1024x768@60Hz
+[    29.668] (II) modeset(0): 1024x768@75Hz
+[    29.668] (II) modeset(0): 1280x1024@75Hz
+[    29.668] (II) modeset(0): Manufacturer's mask: 0
+[    29.668] (II) modeset(0): Supported standard timings:
+[    29.668] (II) modeset(0): #7: hsize: 1280  vsize 720  refresh: 60  vid: 49281
+[    29.668] (II) modeset(0): Supported detailed timing:
+[    29.668] (II) modeset(0): clock: 85.5 MHz   Image Size:  409 x 230 mm
+[    29.668] (II) modeset(0): h_active: 1366  h_sync: 1436  h_sync_end 1579 h_blank_end 1792 h_border: 0
+[    29.668] (II) modeset(0): v_active: 768  v_sync: 771  v_sync_end 774 v_blanking: 798 v_border: 0
+[    29.668] (II) modeset(0): Serial No: 9YKV76A7CRJI
+[    29.668] (II) modeset(0): Monitor name: DELL E1916HV
+[    29.668] (II) modeset(0): Ranges: V min: 56 V max: 75 Hz, H min: 30 H max: 83 kHz, PixClock max 175 MHz
+[    29.668] (II) modeset(0): EDID (in hex):
+[    29.668] (II) modeset(0): 	00ffffffffffff0010ac6cf0494a5243
+[    29.668] (II) modeset(0): 	291a0103802917782a41e5a45551a026
+[    29.668] (II) modeset(0): 	0c5054a54b0001010101010101010101
+[    29.668] (II) modeset(0): 	0101010181c0662156aa51001e30468f
+[    29.668] (II) modeset(0): 	330099e61000001e000000ff0039594b
+[    29.668] (II) modeset(0): 	563736413743524a490a000000fc0044
+[    29.668] (II) modeset(0): 	454c4c20453139313648560a000000fd
+[    29.668] (II) modeset(0): 	00384b1e5311000a202020202020000d
+[    29.668] (II) modeset(0): Printing probed modes for output HDMI-1
+[    29.668] (II) modeset(0): Modeline "1366x768"x59.8   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[    29.668] (II) modeset(0): Modeline "1280x1024"x75.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    29.668] (II) modeset(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz d)
+[    29.668] (II) modeset(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz d)
+[    29.668] (II) modeset(0): Modeline "1360x768"x59.8   84.75  1360 1432 1568 1776  768 771 781 798 -hsync +vsync (47.7 kHz d)
+[    29.668] (II) modeset(0): Modeline "1360x768"x60.0   72.00  1360 1408 1440 1520  768 771 781 790 +hsync -vsync (47.4 kHz d)
+[    29.668] (II) modeset(0): Modeline "1280x800"x60.0  174.25  1280 1380 1516 1752  800 801 804 829 doublescan -hsync +vsync (99.5 kHz d)
+[    29.668] (II) modeset(0): Modeline "1280x800"x60.0  134.25  1280 1304 1320 1360  800 801 804 823 doublescan +hsync -vsync (98.7 kHz d)
+[    29.668] (II) modeset(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz d)
+[    29.668] (II) modeset(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz d)
+[    29.668] (II) modeset(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz d)
+[    29.668] (II) modeset(0): Modeline "1152x864"x75.0  104.99  1152 1224 1352 1552  864 865 868 902 -hsync +vsync (67.6 kHz d)
+[    29.668] (II) modeset(0): Modeline "1152x864"x70.0   96.77  1152 1224 1344 1536  864 865 868 900 -hsync +vsync (63.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "1152x864"x60.0   81.62  1152 1216 1336 1520  864 865 868 895 -hsync +vsync (53.7 kHz d)
+[    29.669] (II) modeset(0): Modeline "1280x720"x60.0  156.12  1280 1376 1512 1744  720 721 724 746 doublescan -hsync +vsync (89.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "1280x720"x60.0  120.75  1280 1304 1320 1360  720 721 724 740 doublescan +hsync -vsync (88.8 kHz d)
+[    29.669] (II) modeset(0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz d)
+[    29.669] (II) modeset(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    29.669] (II) modeset(0): Modeline "1280x720"x59.7   63.75  1280 1328 1360 1440  720 723 728 741 +hsync -vsync (44.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "1024x768"x75.0  170.24  1024 1108 1220 1416  768 768 770 801 doublescan -hsync +vsync (120.2 kHz d)
+[    29.669] (II) modeset(0): Modeline "1024x768"x60.0  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "1024x768"x75.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    29.669] (II) modeset(0): Modeline "1024x768"x70.1   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    29.669] (II) modeset(0): Modeline "960x720"x75.0  148.50  960 1032 1144 1320  720 720 722 750 doublescan -hsync +vsync (112.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "960x720"x60.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "928x696"x75.0  144.00  928 992 1104 1280  696 696 698 750 doublescan -hsync +vsync (112.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "928x696"x60.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
+[    29.669] (II) modeset(0): Modeline "896x672"x75.0  130.50  896 944 1052 1228  672 672 674 708 doublescan -hsync +vsync (106.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "896x672"x60.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
+[    29.669] (II) modeset(0): Modeline "1024x576"x60.0   98.50  1024 1092 1200 1376  576 577 580 597 doublescan -hsync +vsync (71.6 kHz d)
+[    29.669] (II) modeset(0): Modeline "1024x576"x60.0   78.38  1024 1048 1064 1104  576 577 580 592 doublescan +hsync -vsync (71.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "1024x576"x59.9   46.50  1024 1064 1160 1296  576 579 584 599 -hsync +vsync (35.9 kHz d)
+[    29.669] (II) modeset(0): Modeline "1024x576"x59.8   42.00  1024 1072 1104 1184  576 579 584 593 +hsync -vsync (35.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "960x600"x59.9   96.62  960 1028 1128 1296  600 601 604 622 doublescan -hsync +vsync (74.6 kHz d)
+[    29.669] (II) modeset(0): Modeline "960x600"x60.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "832x624"x74.6   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz d)
+[    29.669] (II) modeset(0): Modeline "960x540"x60.0   86.50  960 1024 1124 1288  540 541 544 560 doublescan -hsync +vsync (67.2 kHz d)
+[    29.669] (II) modeset(0): Modeline "960x540"x60.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
+[    29.669] (II) modeset(0): Modeline "960x540"x59.6   40.75  960 992 1088 1216  540 543 548 562 -hsync +vsync (33.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "960x540"x59.8   37.25  960 1008 1040 1120  540 543 548 556 +hsync -vsync (33.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "800x600"x75.0  101.25  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (93.8 kHz d)
+[    29.669] (II) modeset(0): Modeline "800x600"x70.0   94.50  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (87.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "800x600"x65.0   87.75  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (81.2 kHz d)
+[    29.669] (II) modeset(0): Modeline "800x600"x60.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "800x600"x72.2   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz d)
+[    29.669] (II) modeset(0): Modeline "800x600"x75.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    29.669] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    29.669] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[    29.669] (II) modeset(0): Modeline "840x525"x75.0   93.50  840 900 988 1136  525 526 529 549 doublescan -hsync +vsync (82.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "840x525"x69.9   87.00  840 900 988 1136  525 526 529 548 doublescan -hsync +vsync (76.6 kHz d)
+[    29.669] (II) modeset(0): Modeline "840x525"x60.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "840x525"x59.9   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
+[    29.669] (II) modeset(0): Modeline "864x486"x59.9   32.50  864 888 968 1072  486 489 494 506 -hsync +vsync (30.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "864x486"x59.6   30.50  864 912 944 1024  486 489 494 500 +hsync -vsync (29.8 kHz d)
+[    29.669] (II) modeset(0): Modeline "800x512"x60.2   51.56  800 800 828 832  512 512 514 515 doublescan +hsync +vsync (62.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "700x525"x74.8   77.90  700 732 892 956  525 526 532 545 doublescan +hsync +vsync (81.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "700x525"x70.1   72.53  700 748 824 948  525 525 527 546 doublescan -hsync +vsync (76.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "700x525"x60.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
+[    29.669] (II) modeset(0): Modeline "800x450"x59.9   59.12  800 848 928 1056  450 451 454 467 doublescan -hsync +vsync (56.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "800x450"x59.8   48.75  800 824 840 880  450 451 454 463 doublescan +hsync -vsync (55.4 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x512"x75.0   67.50  640 648 720 844  512 512 514 533 doublescan +hsync +vsync (80.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x512"x60.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "720x450"x59.9   53.25  720 760 836 952  450 451 454 467 doublescan -hsync +vsync (55.9 kHz d)
+[    29.669] (II) modeset(0): Modeline "700x450"x60.0   51.75  700 740 812 924  450 451 456 467 doublescan -hsync +vsync (56.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "700x450"x59.9   43.25  700 724 740 780  450 451 456 463 doublescan +hsync -vsync (55.4 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x480"x60.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    29.669] (II) modeset(0): Modeline "640x480"x72.8   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    29.669] (II) modeset(0): Modeline "720x405"x59.5   22.50  720 744 808 896  405 408 413 422 -hsync +vsync (25.1 kHz d)
+[    29.669] (II) modeset(0): Modeline "720x405"x59.0   21.75  720 768 800 880  405 408 413 419 +hsync -vsync (24.7 kHz d)
+[    29.669] (II) modeset(0): Modeline "720x400"x70.1   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    29.669] (II) modeset(0): Modeline "684x384"x59.9   42.62  684 720 788 892  384 385 390 399 doublescan -hsync +vsync (47.8 kHz d)
+[    29.669] (II) modeset(0): Modeline "684x384"x59.9   36.12  684 708 724 764  384 385 390 395 doublescan +hsync -vsync (47.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "680x384"x59.8   42.38  680 716 784 888  384 385 390 399 doublescan -hsync +vsync (47.7 kHz d)
+[    29.669] (II) modeset(0): Modeline "680x384"x60.0   36.00  680 704 720 760  384 385 390 395 doublescan +hsync -vsync (47.4 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x400"x59.9   41.75  640 676 740 840  400 401 404 415 doublescan -hsync +vsync (49.7 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x400"x60.0   35.50  640 664 680 720  400 401 404 411 doublescan +hsync -vsync (49.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "576x432"x75.0   54.00  576 608 672 800  432 432 434 450 doublescan +hsync +vsync (67.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "576x432"x75.0   52.49  576 612 676 776  432 432 434 451 doublescan -hsync +vsync (67.6 kHz d)
+[    29.669] (II) modeset(0): Modeline "576x432"x70.0   48.38  576 612 672 768  432 432 434 450 doublescan -hsync +vsync (63.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "576x432"x60.1   40.81  576 608 668 760  432 432 434 447 doublescan -hsync +vsync (53.7 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x360"x59.9   37.25  640 672 736 832  360 361 364 374 doublescan -hsync +vsync (44.8 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x360"x59.8   31.88  640 664 680 720  360 361 364 370 doublescan +hsync -vsync (44.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x360"x59.8   18.00  640 664 720 800  360 363 368 376 -hsync +vsync (22.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "640x360"x59.3   17.75  640 688 720 800  360 363 368 374 +hsync -vsync (22.2 kHz d)
+[    29.669] (II) modeset(0): Modeline "512x384"x75.0   39.38  512 520 568 656  384 384 386 400 doublescan +hsync +vsync (60.0 kHz d)
+[    29.669] (II) modeset(0): Modeline "512x384"x70.1   37.50  512 524 592 664  384 385 388 403 doublescan -hsync -vsync (56.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "512x384"x60.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
+[    29.669] (II) modeset(0): Modeline "512x288"x60.0   23.25  512 532 580 648  288 289 292 299 doublescan -hsync +vsync (35.9 kHz d)
+[    29.669] (II) modeset(0): Modeline "512x288"x59.9   21.00  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (35.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "416x312"x74.7   28.64  416 432 464 576  312 312 314 333 doublescan -hsync -vsync (49.7 kHz d)
+[    29.669] (II) modeset(0): Modeline "480x270"x59.6   20.38  480 496 544 608  270 271 274 281 doublescan -hsync +vsync (33.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "480x270"x59.8   18.62  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (33.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "400x300"x72.2   25.00  400 428 488 520  300 318 321 333 doublescan +hsync +vsync (48.1 kHz d)
+[    29.669] (II) modeset(0): Modeline "400x300"x75.1   24.75  400 408 448 528  300 300 302 312 doublescan +hsync +vsync (46.9 kHz d)
+[    29.669] (II) modeset(0): Modeline "400x300"x60.3   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
+[    29.669] (II) modeset(0): Modeline "400x300"x56.3   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
+[    29.669] (II) modeset(0): Modeline "432x243"x59.9   16.25  432 444 484 536  243 244 247 253 doublescan -hsync +vsync (30.3 kHz d)
+[    29.669] (II) modeset(0): Modeline "432x243"x59.6   15.25  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (29.8 kHz d)
+[    29.669] (II) modeset(0): Modeline "320x240"x72.8   15.75  320 332 352 416  240 244 246 260 doublescan -hsync -vsync (37.9 kHz d)
+[    29.669] (II) modeset(0): Modeline "320x240"x75.0   15.75  320 328 360 420  240 240 242 250 doublescan -hsync -vsync (37.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "320x240"x60.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "360x202"x59.5   11.25  360 372 404 448  202 204 206 211 doublescan -hsync +vsync (25.1 kHz d)
+[    29.669] (II) modeset(0): Modeline "360x202"x59.1   10.88  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (24.7 kHz d)
+[    29.669] (II) modeset(0): Modeline "320x180"x59.8    9.00  320 332 360 400  180 181 184 188 doublescan -hsync +vsync (22.5 kHz d)
+[    29.669] (II) modeset(0): Modeline "320x180"x59.3    8.88  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (22.2 kHz d)
+[    29.731] (II) modeset(0): EDID for output DP-3
+[    29.731] (II) modeset(0): Output DVI-D-1 disconnected
+[    29.732] (II) modeset(0): Output DP-1 disconnected
+[    29.732] (II) modeset(0): Output DP-2 disconnected
+[    29.732] (II) modeset(0): Output HDMI-1 connected
+[    29.732] (II) modeset(0): Output DP-3 disconnected
+[    29.732] (II) modeset(0): Using exact sizes for initial modes
+[    29.732] (II) modeset(0): Output HDMI-1 using initial mode 1366x768 +0+0
+[    29.732] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[    29.732] (==) modeset(0): DPI set to (96, 96)
+[    29.732] (II) Loading sub module "fb"
+[    29.732] (II) LoadModule: "fb"
+[    29.732] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    29.733] (II) Module fb: vendor="X.Org Foundation"
+[    29.733] 	compiled for 1.20.8, module version = 1.0.0
+[    29.733] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    29.733] (II) UnloadModule: "fbdev"
+[    29.733] (II) Unloading fbdev
+[    29.733] (II) UnloadSubModule: "fbdevhw"
+[    29.733] (II) Unloading fbdevhw
+[    29.733] (II) UnloadModule: "vesa"
+[    29.733] (II) Unloading vesa
+[    29.751] (==) modeset(0): Backing store enabled
+[    29.752] (==) modeset(0): Silken mouse enabled
+[    29.761] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[    29.761] (==) modeset(0): DPMS enabled
+[    29.761] (II) modeset(0): [DRI2] Setup complete
+[    29.761] (II) modeset(0): [DRI2]   DRI driver: nouveau
+[    29.761] (II) modeset(0): [DRI2]   VDPAU driver: nouveau
+[    29.761] (II) Initializing extension Generic Event Extension
+[    29.761] (II) Initializing extension SHAPE
+[    29.761] (II) Initializing extension MIT-SHM
+[    29.761] (II) Initializing extension XInputExtension
+[    29.762] (II) Initializing extension XTEST
+[    29.762] (II) Initializing extension BIG-REQUESTS
+[    29.762] (II) Initializing extension SYNC
+[    29.762] (II) Initializing extension XKEYBOARD
+[    29.762] (II) Initializing extension XC-MISC
+[    29.762] (II) Initializing extension SECURITY
+[    29.762] (II) Initializing extension XFIXES
+[    29.762] (II) Initializing extension RENDER
+[    29.763] (II) Initializing extension RANDR
+[    29.763] (II) Initializing extension COMPOSITE
+[    29.763] (II) Initializing extension DAMAGE
+[    29.763] (II) Initializing extension MIT-SCREEN-SAVER
+[    29.763] (II) Initializing extension DOUBLE-BUFFER
+[    29.763] (II) Initializing extension RECORD
+[    29.763] (II) Initializing extension DPMS
+[    29.763] (II) Initializing extension Present
+[    29.763] (II) Initializing extension DRI3
+[    29.764] (II) Initializing extension X-Resource
+[    29.764] (II) Initializing extension XVideo
+[    29.764] (II) Initializing extension XVideo-MotionCompensation
+[    29.764] (II) Initializing extension SELinux
+[    29.764] (II) SELinux: Disabled on system
+[    29.764] (II) Initializing extension GLX
+[    29.767] (II) AIGLX: Loaded and initialized nouveau
+[    29.767] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    29.767] (II) Initializing extension XFree86-VidModeExtension
+[    29.767] (II) Initializing extension XFree86-DGA
+[    29.767] (II) Initializing extension XFree86-DRI
+[    29.767] (II) Initializing extension DRI2
+[    29.768] (II) modeset(0): Damage tracking initialized
+[    29.768] (II) modeset(0): Setting screen physical size to 361 x 203
+[    29.799] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[    29.799] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    29.799] (II) LoadModule: "libinput"
+[    29.799] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    29.800] (II) Module libinput: vendor="X.Org Foundation"
+[    29.800] 	compiled for 1.20.4, module version = 0.29.0
+[    29.800] 	Module class: X.Org XInput Driver
+[    29.800] 	ABI class: X.Org XInput driver, version 24.1
+[    29.800] (II) Using input driver 'libinput' for 'Power Button'
+[    29.801] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 24 paused 0
+[    29.801] (**) Power Button: always reports core events
+[    29.801] (**) Option "Device" "/dev/input/event2"
+[    29.801] (**) Option "_source" "server/udev"
+[    29.803] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    29.803] (II) event2  - Power Button: device is a keyboard
+[    29.803] (II) event2  - Power Button: device removed
+[    29.803] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[    29.803] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    29.803] (**) Option "xkb_model" "pc105"
+[    29.803] (**) Option "xkb_layout" "us"
+[    29.803] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    29.804] (II) event2  - Power Button: device is a keyboard
+[    29.804] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    29.804] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    29.804] (II) Using input driver 'libinput' for 'Power Button'
+[    29.805] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 27 paused 0
+[    29.805] (**) Power Button: always reports core events
+[    29.805] (**) Option "Device" "/dev/input/event1"
+[    29.805] (**) Option "_source" "server/udev"
+[    29.805] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    29.805] (II) event1  - Power Button: device is a keyboard
+[    29.805] (II) event1  - Power Button: device removed
+[    29.805] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[    29.805] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[    29.805] (**) Option "xkb_model" "pc105"
+[    29.805] (**) Option "xkb_layout" "us"
+[    29.806] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    29.806] (II) event1  - Power Button: device is a keyboard
+[    29.807] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
+[    29.807] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    29.807] (II) Using input driver 'libinput' for 'Sleep Button'
+[    29.807] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 28 paused 0
+[    29.807] (**) Sleep Button: always reports core events
+[    29.807] (**) Option "Device" "/dev/input/event0"
+[    29.807] (**) Option "_source" "server/udev"
+[    29.808] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[    29.808] (II) event0  - Sleep Button: device is a keyboard
+[    29.808] (II) event0  - Sleep Button: device removed
+[    29.808] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
+[    29.808] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 8)
+[    29.808] (**) Option "xkb_model" "pc105"
+[    29.808] (**) Option "xkb_layout" "us"
+[    29.808] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[    29.809] (II) event0  - Sleep Button: device is a keyboard
+[    29.809] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event13)
+[    29.809] (II) No input driver specified, ignoring this device.
+[    29.809] (II) This device may have been added with another device file.
+[    29.809] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event14)
+[    29.810] (II) No input driver specified, ignoring this device.
+[    29.810] (II) This device may have been added with another device file.
+[    29.810] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event15)
+[    29.810] (II) No input driver specified, ignoring this device.
+[    29.810] (II) This device may have been added with another device file.
+[    29.810] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event16)
+[    29.810] (II) No input driver specified, ignoring this device.
+[    29.810] (II) This device may have been added with another device file.
+[    29.810] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=10 (/dev/input/event17)
+[    29.810] (II) No input driver specified, ignoring this device.
+[    29.810] (II) This device may have been added with another device file.
+[    29.811] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=11 (/dev/input/event18)
+[    29.811] (II) No input driver specified, ignoring this device.
+[    29.811] (II) This device may have been added with another device file.
+[    29.811] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=12 (/dev/input/event19)
+[    29.811] (II) No input driver specified, ignoring this device.
+[    29.811] (II) This device may have been added with another device file.
+[    29.812] (II) config/udev: Adding input device Logitech USB Keyboard (/dev/input/event3)
+[    29.812] (**) Logitech USB Keyboard: Applying InputClass "libinput keyboard catchall"
+[    29.812] (II) Using input driver 'libinput' for 'Logitech USB Keyboard'
+[    29.812] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 29 paused 0
+[    29.813] (**) Logitech USB Keyboard: always reports core events
+[    29.813] (**) Option "Device" "/dev/input/event3"
+[    29.813] (**) Option "_source" "server/udev"
+[    29.814] (II) event3  - Logitech USB Keyboard: is tagged by udev as: Keyboard
+[    29.814] (II) event3  - Logitech USB Keyboard: device is a keyboard
+[    29.814] (II) event3  - Logitech USB Keyboard: device removed
+[    29.814] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/0003:046D:C31C.0001/input/input4/event3"
+[    29.814] (II) XINPUT: Adding extended input device "Logitech USB Keyboard" (type: KEYBOARD, id 9)
+[    29.814] (**) Option "xkb_model" "pc105"
+[    29.814] (**) Option "xkb_layout" "us"
+[    29.815] (II) event3  - Logitech USB Keyboard: is tagged by udev as: Keyboard
+[    29.815] (II) event3  - Logitech USB Keyboard: device is a keyboard
+[    29.815] (II) config/udev: Adding input device Logitech USB Keyboard Consumer Control (/dev/input/event4)
+[    29.815] (**) Logitech USB Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    29.816] (II) Using input driver 'libinput' for 'Logitech USB Keyboard Consumer Control'
+[    29.816] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 30 paused 0
+[    29.816] (**) Logitech USB Keyboard Consumer Control: always reports core events
+[    29.816] (**) Option "Device" "/dev/input/event4"
+[    29.816] (**) Option "_source" "server/udev"
+[    29.818] (II) event4  - Logitech USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[    29.818] (II) event4  - Logitech USB Keyboard Consumer Control: device is a keyboard
+[    29.818] (II) event4  - Logitech USB Keyboard Consumer Control: device removed
+[    29.818] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.1/0003:046D:C31C.0002/input/input5/event4"
+[    29.818] (II) XINPUT: Adding extended input device "Logitech USB Keyboard Consumer Control" (type: KEYBOARD, id 10)
+[    29.818] (**) Option "xkb_model" "pc105"
+[    29.818] (**) Option "xkb_layout" "us"
+[    29.819] (II) event4  - Logitech USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[    29.819] (II) event4  - Logitech USB Keyboard Consumer Control: device is a keyboard
+[    29.820] (II) config/udev: Adding input device Logitech USB Keyboard System Control (/dev/input/event5)
+[    29.820] (**) Logitech USB Keyboard System Control: Applying InputClass "libinput keyboard catchall"
+[    29.820] (II) Using input driver 'libinput' for 'Logitech USB Keyboard System Control'
+[    29.822] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 31 paused 0
+[    29.822] (**) Logitech USB Keyboard System Control: always reports core events
+[    29.822] (**) Option "Device" "/dev/input/event5"
+[    29.822] (**) Option "_source" "server/udev"
+[    29.823] (II) event5  - Logitech USB Keyboard System Control: is tagged by udev as: Keyboard
+[    29.824] (II) event5  - Logitech USB Keyboard System Control: device is a keyboard
+[    29.824] (II) event5  - Logitech USB Keyboard System Control: device removed
+[    29.824] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.1/0003:046D:C31C.0002/input/input6/event5"
+[    29.824] (II) XINPUT: Adding extended input device "Logitech USB Keyboard System Control" (type: KEYBOARD, id 11)
+[    29.824] (**) Option "xkb_model" "pc105"
+[    29.824] (**) Option "xkb_layout" "us"
+[    29.825] (II) event5  - Logitech USB Keyboard System Control: is tagged by udev as: Keyboard
+[    29.825] (II) event5  - Logitech USB Keyboard System Control: device is a keyboard
+[    29.825] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event6)
+[    29.825] (**) PixArt USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[    29.825] (II) Using input driver 'libinput' for 'PixArt USB Optical Mouse'
+[    29.892] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 32 paused 0
+[    29.892] (**) PixArt USB Optical Mouse: always reports core events
+[    29.892] (**) Option "Device" "/dev/input/event6"
+[    29.892] (**) Option "_source" "server/udev"
+[    29.893] (II) event6  - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[    29.893] (II) event6  - PixArt USB Optical Mouse: device is a pointer
+[    29.893] (II) event6  - PixArt USB Optical Mouse: device removed
+[    29.893] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.0/0003:04CA:0061.0003/input/input7/event6"
+[    29.893] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 12)
+[    29.893] (**) Option "AccelerationScheme" "none"
+[    29.893] (**) PixArt USB Optical Mouse: (accel) selected scheme none/0
+[    29.893] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[    29.893] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+[    29.894] (II) event6  - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[    29.894] (II) event6  - PixArt USB Optical Mouse: device is a pointer
+[    29.895] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse0)
+[    29.895] (II) No input driver specified, ignoring this device.
+[    29.895] (II) This device may have been added with another device file.
+[    29.896] (II) config/udev: Adding input device Generic USB Condenser Microphone (/dev/input/event7)
+[    29.896] (**) Generic USB Condenser Microphone: Applying InputClass "libinput keyboard catchall"
+[    29.896] (II) Using input driver 'libinput' for 'Generic USB Condenser Microphone'
+[    29.897] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 33 paused 0
+[    29.897] (**) Generic USB Condenser Microphone: always reports core events
+[    29.897] (**) Option "Device" "/dev/input/event7"
+[    29.897] (**) Option "_source" "server/udev"
+[    29.898] (II) event7  - Generic USB Condenser Microphone: is tagged by udev as: Keyboard
+[    29.898] (II) event7  - Generic USB Condenser Microphone: device is a keyboard
+[    29.898] (II) event7  - Generic USB Condenser Microphone: device removed
+[    29.898] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.2/0003:0BDA:4C07.0004/input/input8/event7"
+[    29.898] (II) XINPUT: Adding extended input device "Generic USB Condenser Microphone" (type: KEYBOARD, id 13)
+[    29.898] (**) Option "xkb_model" "pc105"
+[    29.898] (**) Option "xkb_layout" "us"
+[    29.899] (II) event7  - Generic USB Condenser Microphone: is tagged by udev as: Keyboard
+[    29.899] (II) event7  - Generic USB Condenser Microphone: device is a keyboard
+[    29.899] (II) config/udev: Adding input device HDA Intel PCH Rear Mic (/dev/input/event9)
+[    29.899] (II) No input driver specified, ignoring this device.
+[    29.899] (II) This device may have been added with another device file.
+[    29.900] (II) config/udev: Adding input device HDA Intel PCH Line (/dev/input/event10)
+[    29.900] (II) No input driver specified, ignoring this device.
+[    29.900] (II) This device may have been added with another device file.
+[    29.900] (II) config/udev: Adding input device HDA Intel PCH Line Out (/dev/input/event11)
+[    29.900] (II) No input driver specified, ignoring this device.
+[    29.900] (II) This device may have been added with another device file.
+[    29.900] (II) config/udev: Adding input device HDA Intel PCH Front Headphone (/dev/input/event12)
+[    29.900] (II) No input driver specified, ignoring this device.
+[    29.900] (II) This device may have been added with another device file.
+[    29.901] (II) config/udev: Adding input device HDA Intel PCH Front Mic (/dev/input/event8)
+[    29.901] (II) No input driver specified, ignoring this device.
+[    29.901] (II) This device may have been added with another device file.
+[    30.519] (II) modeset(0): EDID vendor "DEL", prod id 61548
+[    30.519] (II) modeset(0): Using EDID range info for horizontal sync
+[    30.519] (II) modeset(0): Using EDID range info for vertical refresh
+[    30.519] (II) modeset(0): Printing DDC gathered Modelines:
+[    30.519] (II) modeset(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[    30.519] (II) modeset(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    30.519] (II) modeset(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    30.519] (II) modeset(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    30.519] (II) modeset(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    30.519] (II) modeset(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    30.519] (II) modeset(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    30.519] (II) modeset(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    30.519] (II) modeset(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    30.519] (II) modeset(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[    31.690] (II) modeset(0): EDID vendor "DEL", prod id 61548
+[    31.690] (II) modeset(0): Using hsync ranges from config file
+[    31.690] (II) modeset(0): Using vrefresh ranges from config file
+[    31.690] (II) modeset(0): Printing DDC gathered Modelines:
+[    31.690] (II) modeset(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[    31.690] (II) modeset(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    31.690] (II) modeset(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    31.690] (II) modeset(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    31.690] (II) modeset(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    31.690] (II) modeset(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    31.690] (II) modeset(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    31.690] (II) modeset(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    31.690] (II) modeset(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    31.690] (II) modeset(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)

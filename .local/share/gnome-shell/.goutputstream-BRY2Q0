@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="snap-store_ubuntu-software.desktop" score="66" last-seen="1600887506"/>
+    <application id="org.gnome.Nautilus.desktop" score="5" last-seen="1600884100"/>
+    <application id="gnome-initial-setup.desktop" score="7" last-seen="1600882395"/>
+    <application id="firefox.desktop" score="293" last-seen="1600887672"/>
+    <application id="code_code.desktop" score="0" last-seen="1600883050"/>
+    <application id="org.gnome.Terminal.desktop" score="114" last-seen="1600887670"/>
+    <application id="audacity_audacity.desktop" score="11" last-seen="1600884764"/>
+    <application id="gnome-control-center.desktop" score="36" last-seen="1600887524"/>
+    <application id="update-manager.desktop" score="1" last-seen="1600882405"/>
+  </context>
+</application-state>

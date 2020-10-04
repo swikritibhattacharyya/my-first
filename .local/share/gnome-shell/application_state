@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="snap-store_ubuntu-software.desktop" score="4" last-seen="1601816229"/>
+    <application id="spotify_spotify.desktop" score="1" last-seen="1601816286"/>
+    <application id="org.gnome.Nautilus.desktop" score="112" last-seen="1601815943"/>
+    <application id="firefox.desktop" score="2848" last-seen="1601818924"/>
+    <application id="org.gnome.Terminal.desktop" score="69" last-seen="1601818919"/>
+    <application id="thunderbird.desktop" score="0" last-seen="1601805245"/>
+    <application id="audacity_audacity.desktop" score="29" last-seen="1601816170"/>
+    <application id="google-chrome.desktop" score="2" last-seen="1601816409"/>
+  </context>
+</application-state>

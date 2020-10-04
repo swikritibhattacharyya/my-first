@@ -1,0 +1,2 @@
+[2020-09-23 23:14:09.058] [sharedprocess] [info] main {"machineId":"3c2e724ef0270632f8034c6bce2cd19d972a3bb44d47c8c9c2eab103ae2e3143","windowId":2}
+[2020-09-23 23:14:09.091] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/arghya/.config/Code/User/snippets'
